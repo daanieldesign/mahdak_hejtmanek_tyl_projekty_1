@@ -34,13 +34,13 @@ input.onButtonPressed(Button.B, function () {
     }
     basic.showString("END")
     if (P1 > P2) {
-        basic.showString("P1 won!")
+        basic.showString("P1 WINS!")
     }
     if (P1 < P2) {
-        basic.showString("P2 won!")
+        basic.showString("P2 WINS!")
     }
     if (P1 == P2) {
-        basic.showString("Tie!")
+        basic.showString("TIE!")
     }
     pocet_kol = 0
     basic.showLeds(`
